@@ -1,0 +1,6 @@
+id=ipad_zygisk_spoof
+name=iPad Zygisk Spoof
+version=v1.0
+versionCode=1
+author=isbah
+description=Spoof Build.MODEL/MANUFACTURER/dll via Zygisk native hook (per-app, tanpa APK/LSPosed)
