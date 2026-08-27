@@ -20,7 +20,9 @@ jobs:
       - name: Download official zygisk.hpp header
         run: |
           curl -fL -o src/jni/zygisk.hpp \
-  https://github.com/topjohnwu/zygisk-module-sample/raw/refs/heads/master/module/jni/zygisk.hpp
+            https://github.com/topjohnwu/zygisk-module-sample/raw/refs/heads/master/module/jni/zygisk.hpp
+          echo "--- isi zygisk.hpp yang terpakai ---"
+          head -20 src/jni/zygisk.hpp
 
       - name: Configure CMake
         run: |
