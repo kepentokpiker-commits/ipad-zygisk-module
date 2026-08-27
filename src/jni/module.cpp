@@ -2,6 +2,7 @@
 // Header asli di-download otomatis oleh CI (lihat .github/workflows/build.yml)
 // dari repo resmi topjohnwu/zygisk-module-sample sebelum compile.
 // Kalau build lokal manual, ganti dulu file zygisk.hpp dengan versi resmi.
+#include <sys/types.h>  // wajib sebelum zygisk.hpp - definisi dev_t & ino_t
 #include "zygisk.hpp"
 
 #include <jni.h>
